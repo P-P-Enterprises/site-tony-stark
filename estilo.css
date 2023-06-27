@@ -236,19 +236,18 @@ min-height: 100%;
 }
 .main-tony{
     background-image: url(fundo7.png);
-background-size: 1057px;
-margin: 0px;
-padding: 0px;
-height: 100%;
-
-width:1025px;
-background-repeat: no-repeat;
-
-
-display: inline-block;
-flex-direction: column;
-min-height: 100%;
-}
+    background-size: 100vw;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    
+    width:100vw;
+    background-repeat: no-repeat;
+    
+    
+    display: inline-block;
+    flex-direction: column;
+    min-height: 100%;}
 .main{
     background-image: url(fundo6.png);
 background-size: 100vw;

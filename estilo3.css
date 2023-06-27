@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Share+Tech+Mono&display=swap');
-@media only screen and (max-device-width: 1080px) {
+
     @keyframes rodaroda {
         0% {
             transform: rotate(0deg);
@@ -32,14 +32,14 @@
         height: 100%;
         margin: 5PX;
         padding: 0PX;
-        width: 1025px;
+        width: 100vw;
     }
 
     .COMEÇO {
         text-align: center;
         align-items: center;
-        width: 1025px;
-        background: radial-gradient(circle, rgb(255, 255, 255) 16%, rgb(161, 161, 161) 51%);
+        width: 100vw;
+        background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
         animation: AnimationName1 16s linear infinite;
         background-size: 400% 400%; 
         height: 110PX;
@@ -47,7 +47,7 @@
         padding-bottom: 5px;
         display: inline-block;
         flex-wrap: wrap;
-        border-bottom: 0.5px solid rgb(255, 255, 255);
+        border-bottom: 2px solid black;
         border-top:2px solid black ;
         border-LEFT:2px solid rgb(0, 0, 0);
         border-right:2px solid rgb(0, 0, 0);
@@ -65,7 +65,7 @@
         box-shadow: white 0px 3px 35px 2px;
         border-radius: 50px;
         position: relative;
-margin-left:363px;
+        margin-left: 160%;
 
 
 
@@ -84,7 +84,7 @@ margin-left:363px;
         font: weight 10px;
         text-shadow: rgb(0, 0, 0) 20px 20px 0px 20px;
         position: relative;
-        margin-left:305px;
+        margin-left: 142%;
         width: 200px;
     }
 
@@ -220,12 +220,12 @@ font-family: 'Allerta Stencil', sans-serif;
     
 .main-classicas{
     background-image: url(Classicas1.png);
-background-size: 1107px;
+background-size: 100vw;
 
 padding-bottom: 100px;
 height: 100%;
 
-width:1025px;
+width:100vw;
 background-repeat: no-repeat;
 
 
@@ -261,13 +261,12 @@ min-height: 100%;
     /*Footer -  Inicio rodape */
     .footer1 {
     
-        border-top:0.5px solid rgb(255, 255, 255) ;
         text-align: center;
         background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
         animation: AnimationName1 16s linear infinite;
         background-size: 400% 400%; 
         bottom: 0px;
-        width: 1005px;
+      width: 100vw;
         padding: 10PX;
         margin-top: auto;
         height: 135px;
@@ -320,4 +319,3 @@ min-height: 100%;
 
 
     /*Footer - Fim rodape */
-}

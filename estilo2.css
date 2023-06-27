@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Share+Tech+Mono&display=swap');
-@media only screen and (max-device-width: 1080px) {
+
     @keyframes rodaroda {
         0% {
             transform: rotate(0deg);
@@ -38,7 +38,7 @@
     .COMEÇO {
         text-align: center;
         align-items: center;
-        width: 1025px;
+        width: 100vw;
         background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
         animation: AnimationName1 16s linear infinite;
         background-size: 400% 400%; 
@@ -466,5 +466,4 @@ border-radius: 20px;
 .redes-sociais:hover{
 transform: skew(-5deg,-5deg);
 
-}
 }
