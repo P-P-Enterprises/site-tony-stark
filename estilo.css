@@ -1,13 +1,3 @@
-body {
-    background-color: none;
-    border: none;
-    outline: 0;
-  
-    height: 100%;
-    margin: 0PX;
-    padding: 0PX;
-    width: 100%;
-}
 :root {
     --cortittle: rgb(109, 7, 7);
     --corbody: white;
@@ -17,11 +7,11 @@ body {
 @font-face {
     font-family: 'Stay Dreaming';
     src: url('Stay\ Dreaming.otf') format('truetype');
-}
-@font-face {
+  }
+  @font-face {
     font-family: 'REQUEMA';
     src: url('REQUEMA.otf') format('truetype');
-}
+  }
 /* SECTION -  COMEÇO CABEÇALHO */
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 
@@ -31,149 +21,6 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Share+Tech+Mono&display=swap');
-
-.linksmain1:hover{
-    transform: scale(1.05) skew(1.5deg,1.5deg);
-    
-      box-shadow: 10px 10px 15px black;
-     
-   
-      background: linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(113,10,10,1) 100%);
-    background-size: 200% 200%;
-    animation: AnimationName 2s linear infinite;
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName1 {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-#so{
-    margin-left: 350px;
-    padding-top:20px ;
-    padding-bottom: 17px;
-}
-.animation-main{
-    text-align: center;
-    width: 375px;
-height: 375px;
-margin-right: 0px;
-margin-left: 340px;
-border-radius: 20px;
-border: solid rgb(255, 0, 0) 1px;
-box-shadow: 0px 1.5px 20px black;
-animation: piscapisca 3.0s linear infinite;
-
-
-}
-@keyframes piscapisca {
-    0%{
-border:solid 1.5px rgba(0, 0, 0, 0.719);
-
-    }
-
-    50%{
-        border:solid 2px red;
-    }
-
-    100%{
-
-        border:solid 1.25px rgb(114, 14, 14);
-    }
-    
-    
-}
-.img-main{
-    
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 0px;
-    width: 200px;
-height: 150px;
-margin-left: 422px;
-filter: drop-shadow(0px 1.5px 15px black);
-}
-
-/*Main - Fim */
-
-
-
-
-    /*Footer -  Inicio rodape */
-    .footer1 {
-    
-      
-        text-align: center;
-        background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
-        animation: AnimationName1 16s linear infinite;
-        background-size: 400% 400%; 
-        bottom: 0px;
-        width: 100vw;
-        padding: 10PX;
-        margin-top: auto;
-        height: 135px;
-        color: white;
-        font-size: 12PX;
-      text-shadow:white 5px 3px 20px 1px;
-        color: rgba(255, 255, 255, 0.322);
-        font-family:'Allerta Stencil', sans-serif;
-      
-    }
-
-    .sobreeempresa {
-        text-decoration: none;
-        border: none;
-        padding: 2px;
-        text-shadow:white 5px 3px 20px 1px;
-    }
-
-    .rodapecontato {
-        text-decoration: none;
-        list-style: none;
-        padding: 2px;
-        background-color: black;
-        border-radius: 5PX;
-        padding: 4px;
-    }
-
-    
-
-    .TEXTO-RODAPE2{
-        font-size: 12PX;
-      
-        color: rgba(255, 255, 255, 0.322);
-        font-family:'Allerta Stencil', sans-serif;
-    }
-
-.redes-sociais{
-    width: 35px;
-    height:35px;
-    border-radius: 20px;
-
-}
-.redes-sociais1{
-    width: 85px;
-    height:85px;
-    border-radius: 20px;
-    text-align: center;
-
-
-}
-.redes-sociais1:hover{
- 
-    transform: skew(-2deg,-2deg);
-
-}
-
-.redes-sociais:hover{
-    transform: skew(-5deg,-5deg);
-
-}
-
 
     @keyframes rodaroda {
         0% {
@@ -188,12 +35,20 @@ filter: drop-shadow(0px 1.5px 15px black);
             transform: rotate(360deg);
         }
     }
-
     a{
       text-decoration: none;
       color:white;
+  }
+    body {
+        background-color: none;
+        border: none;
+        outline: 0;
+      
+        height: 100%;
+        margin: 0PX;
+        padding: 0PX;
+        width: 1025px;
     }
-
 
     .COMEÇO {
         text-align: center;
@@ -205,12 +60,13 @@ filter: drop-shadow(0px 1.5px 15px black);
         height: 110PX;
         margin: 0px;
         padding-bottom: 5px;
-       
+        display: inline-block;
+        flex-wrap: wrap;
         border-bottom: 2px solid black;
         border-top:2px solid black ;
         border-LEFT:2px solid rgb(0, 0, 0);
         border-right:2px solid rgb(0, 0, 0);
- 
+        display: flex;
       
     }
 
@@ -218,14 +74,17 @@ filter: drop-shadow(0px 1.5px 15px black);
     .Logo {
         width: 80px;
         height: 80px;
-        margin: 2PX;
+  
         text-align: center;
         align-items: center;
         box-shadow: white 0px 3px 35px 2px;
         border-radius: 50px;
         position: relative;
-        
-    
+margin-left: 160%;
+
+
+
+
     }
 
     .ArmadurasStark {
@@ -240,9 +99,11 @@ filter: drop-shadow(0px 1.5px 15px black);
         font: weight 10px;
         text-shadow: rgb(0, 0, 0) 20px 20px 0px 20px;
         position: relative;
-        margin-left:305px;
+        margin-left: 142%;
         width: 200px;
     }
+
+    
 
     .Logo:hover {
 
@@ -267,6 +128,7 @@ filter: drop-shadow(0px 1.5px 15px black);
     .links {
         height: 100%;
         text-align: left;
+    
         padding: 0px;
         font-size: 25px;
         color: #f9f9f9;
@@ -293,7 +155,7 @@ filter: drop-shadow(0px 1.5px 15px black);
        margin-left: 10px;
     }   
     .dropdown:hover{
-        transform: scale(1.025);
+        transform: scale(1.025); ;
     }
     .produzido{
         font-size: 11px;
@@ -372,7 +234,6 @@ display: inline-block;
 flex-direction: column;
 min-height: 100%;
 }
-
 .main-tony{
     background-image: url(fundo7.png);
 background-size: 1057px;
@@ -388,10 +249,9 @@ display: inline-block;
 flex-direction: column;
 min-height: 100%;
 }
-
 .main{
     background-image: url(fundo6.png);
-background-size: cover;
+background-size: 100vw;
 margin: 0px;
 padding: 0px;
 height: 100%;
@@ -404,20 +264,22 @@ display: inline-block;
 flex-direction: column;
 min-height: 100%;
 }
-
 .bemvindo{
     color: rgb(0, 0, 0);
-   display: align center;
-   margin: 0px;
-    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left: 32%;;
+  
     width: 500px;
     padding-bottom: 0px;
     padding-top: 10px;
     font-size: 22px;
+   
+   
     text-align: center;
+    align-items: center;
     margin-bottom: 10px;
 
-    margin: 5px;
+
     text-shadow: 0px 8px 8.5px  rgba(0, 0, 0, 0.233);
    
 }
@@ -489,12 +351,12 @@ min-height: 100%;
 
   width: 300px;
   text-align: center;
-  padding-left: 345px;
+margin-left: 39%;
 padding-bottom: 80px;
 margin-bottom: 0px;
   font-size: 22px;
   text-shadow: 0px 8px 8.5px  rgba(0, 0, 0, 0.247);
-  margin: 0px;
+
 }
 .bemvindo4-main::first-letter{
     font-size: 30px;
@@ -504,8 +366,9 @@ margin-bottom: 0px;
 
 }
 .bemvindo5{
+margin-left: 40%;
     font-family: Arial, Helvetica, sans-serif;
-padding-left: 28px;
+    align-items: center;
   width: 300px;
   text-align: center;
  margin-bottom: 0px;
@@ -545,6 +408,7 @@ padding: 5px;
 width: 300px;
 border-radius: 10px;
 box-shadow: 5px 5px 15px black;
+
 }
 
 .slides-list{
@@ -561,6 +425,7 @@ box-shadow: 5px 5px 15px black;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
+
 }
 .imagens{
     text-align: center;
@@ -603,6 +468,154 @@ transform: scale(1.05) skew(-1.5deg,-1.5deg);
   background-size: 200% 200%;
   animation: AnimationName 2s linear infinite;
 }
+
+    
+
+.linksmain1:hover{
+    transform: scale(1.05) skew(1.5deg,1.5deg);
+    
+      box-shadow: 10px 10px 15px black;
+     
+   
+      background: linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(113,10,10,1) 100%);
+    background-size: 200% 200%;
+    animation: AnimationName 2s linear infinite;
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName1 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#so{
+
+    padding-top:20px ;
+    padding-bottom: 17px;
+    text-align: center;
+    align-items: center;
+}
+.animation-main{
+    
+    text-align: center;
+    align-items: center;
+    width: 375px;
+height: 375px;
+display: inline-block;
+border-radius: 20px;
+border: solid rgb(255, 0, 0) 1px;
+box-shadow: 0px 1.5px 20px black;
+animation: piscapisca 3.0s linear infinite;
+
+
+}
+@keyframes piscapisca {
+    0%{
+border:solid 1.5px rgba(0, 0, 0, 0.719);
+
+    }
+
+    50%{
+        border:solid 2px red;
+    }
+
+    100%{
+
+        border:solid 1.25px rgb(114, 14, 14);
+    }
+    
+    
+}
+.img-main{
+    
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 200px;
+height: 150px;
+
+filter: drop-shadow(0px 1.5px 15px black);
+}
+
+/*Main - Fim */
+
+
+
+
+    /*Footer -  Inicio rodape */
+    .footer1 {
+    
+      
+        text-align: center;
+        background: radial-gradient(circle, rgba(0,0,0,1) 16%, rgb(37, 35, 35) 51%);
+        animation: AnimationName1 16s linear infinite;
+        background-size: 400% 400%; 
+        bottom: 0px;
+      width: 100vw;
+        padding: 10PX;
+        margin-top: auto;
+        height: 135px;
+        color: white;
+        font-size: 12PX;
+      text-shadow:white 5px 3px 20px 1px;
+        color: rgba(255, 255, 255, 0.322);
+        font-family:'Allerta Stencil', sans-serif;
+      
+    }
+
+    .sobreeempresa {
+        text-decoration: none;
+        border: none;
+        padding: 2px;
+        text-shadow:white 5px 3px 20px 1px;
+    }
+
+    .rodapecontato {
+        text-decoration: none;
+        list-style: none;
+        padding: 2px;
+        background-color: black;
+        border-radius: 5PX;
+        padding: 4px;
+    }
+
+    
+
+    .TEXTO-RODAPE2{
+        font-size: 12PX;
+      
+        color: rgba(255, 255, 255, 0.322);
+        font-family:'Allerta Stencil', sans-serif;
+    }
+
+.redes-sociais{
+    width: 35px;
+    height:35px;
+    border-radius: 20px;
+
+}
+.redes-sociais1{
+    width: 85px;
+    height:85px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+.redes-sociais1:hover{
+ 
+    transform: skew(-2deg,-2deg);
+
+}
+
+.redes-sociais:hover{
+    transform: skew(-5deg,-5deg);
+
+}
+
 
 
 
