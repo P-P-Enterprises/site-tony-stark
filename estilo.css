@@ -390,7 +390,7 @@ min-height: 100%;
 
 .main{
     background-image: url(fundo6.png);
-background-size: 100vw;
+background-size: cover;
 margin: 0px;
 padding: 0px;
 height: 100%;
