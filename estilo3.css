@@ -34,7 +34,21 @@
         padding: 0PX;
         width: 100vw;
     }
-
+    main{
+        background-image: url(NOVAS\ \(4\).png);
+        background-size:100vw;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        
+        width:100vw;
+        background-repeat: no-repeat;
+        
+        
+        display: inline-block;
+        flex-direction: column;
+        min-height: 100%;
+      }
     .COMEÇO {
         text-align: center;
         align-items: center;
